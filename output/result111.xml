@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.5880" tests="9" failures="1" skipped="8">
+  <testsuite name="Root Suite" timestamp="2021-07-19T20:56:01" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="@first Create Todos @step:06 @smoke @story:12345" timestamp="2021-07-19T20:56:01" tests="9" file="/home/davert/projects/testomatio/examples/codeceptJS/todomvc-tests/create-todos_test.js" time="0.5880" failures="1">
+    <testcase name="@first Create Todos @step:06 @smoke @story:12345: New todos should be added to the bottom of the list" time="0.5880" classname="New todos should be added to the bottom of the list">
+      <failure message="Expected &quot;second&quot; but got &quot;undefined&quot;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected "second" but got "undefined"
+    at Object.seeNthTodoEquals (todomvc-tests/pages/todos.page.js:89:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Test.<anonymous> (todomvc-tests/create-todos_test.js:83:3)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
