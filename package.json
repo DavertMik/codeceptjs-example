@@ -27,7 +27,6 @@
   "devDependencies": {
     "@codeceptjs/configure": "^0.4.0",
     "@codeceptjs/ui": "^0.2.0",
-    "codeceptjs": "^3.3.3",
-    "puppeteer": "^2.0.0"
+    "codeceptjs": "^3.3.3"
   }
 }
