@@ -1,4 +1,4 @@
-Feature('Some @Sf8bcccb6');
+Feature('Some');
 
 async function wait(timeout) {
   return new Promise(res => setTimeout(res, timeout));
@@ -78,7 +78,7 @@ function waitFor(
 }
 
 
-Scenario('something @T5a2c94c0', async ({ I }) => {
+Scenario('something', async ({ I }) => {
   I.amOnPage('http://todomvc.com/examples/angularjs/#/')
 
   await waitFor(async (retry) => {
