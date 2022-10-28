@@ -18,4 +18,4 @@ steps:
 - script: |
     npm install
     npx codeceptjs run
-  displayName: 'npm install and build'
+  displayName: 'run tests'
