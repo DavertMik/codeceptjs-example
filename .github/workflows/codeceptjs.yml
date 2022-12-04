@@ -35,6 +35,7 @@ jobs:
     - run: npm i
     - run: npx codeceptjs run --grep "${{ github.event.inputs.grep }}"
       env:
+        DEBUG=1
         GH_PAT: ${{ github.token }}
         TESTOMATIO: "${{ github.event.inputs.testomatio }}"
         TESTOMATIO_URL: "${{ github.event.inputs.testomatio_url }}"
