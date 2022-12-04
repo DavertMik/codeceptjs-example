@@ -27,7 +27,7 @@
   "devDependencies": {
     "@codeceptjs/configure": "^0.4.0",
     "@codeceptjs/ui": "^0.2.0",
-    "@testomatio/reporter": "^0.8.0-beta.9",
+    "@testomatio/reporter": "^0.8.0-beta.10",
     "codeceptjs": "^3.3.7"
   }
 }
